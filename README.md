@@ -6,4 +6,7 @@ Take From Some function
 
 Add  new Feature from Nyan Lin
 
-Add for new Featur
+Add for new Feature
+
+- [ ] New Items
+- [ ] New Items 2
