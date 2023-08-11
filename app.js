@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
 
-app.length('/names',(req, res)=>{
+app.get('/names',(req, res)=>{
     res.send('Smaplei');
 })
