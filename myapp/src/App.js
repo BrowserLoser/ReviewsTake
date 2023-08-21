@@ -3,13 +3,16 @@ import 'gridstack/dist/gridstack.min.css';
 import { GridStack } from 'gridstack';
 import { useEffect } from 'react';
 import styled from '@emotion/styled';
+import Dashboard from './components/dashboard';
+
+export const Button = styled.button`color:hotpink;`
 
 function App() {
   useEffect(()=>{
     var grid = GridStack.init();
   });
-  const Button = styled.button`color:hotpink;`
   return (
+    <>
     <div className="grid-stack">
      <div className='grid-stack-item'>
       <div className='grid-stack-item-content'>
@@ -22,6 +25,8 @@ function App() {
       </div>
      </div>
     </div>
+    <Dashboard/>
+    </>
   );
 }
 
